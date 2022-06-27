@@ -3,42 +3,8 @@
   "children" : [ {
     "name" : "0-0",
     "children" : [ {
-      "name" : "",
-      "uid" : "1e6ed7b37e74aaf6",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1656315477233,
-        "stop" : 1656315477234,
-        "duration" : 1
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-103.0.5060.53" ]
-    }, {
-      "name" : "Then I should see a flash message saying Your username is invalid!",
-      "uid" : "e259b0ddfc8af424",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1656315478393,
-        "stop" : 1656315478465,
-        "duration" : 72
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-103.0.5060.53" ]
-    }, {
       "name" : "When I login with tomsmith and SuperSecretPassword!",
-      "uid" : "8dc87834967389f8",
+      "uid" : "c7bade10ac7588af",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
@@ -55,7 +21,7 @@
       "parameters" : [ "chrome-103.0.5060.53" ]
     }, {
       "name" : "Given I am on the login page",
-      "uid" : "40474e76fa7c4f32",
+      "uid" : "b49b1f5a1bb37738",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
@@ -71,8 +37,76 @@
       "retriesStatusChange" : false,
       "parameters" : [ "chrome-103.0.5060.53" ]
     }, {
+      "name" : "Given I am on the login page",
+      "uid" : "bcd01fc2c78d55c0",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656315471825,
+        "stop" : 1656315476216,
+        "duration" : 4391
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-103.0.5060.53" ]
+    }, {
       "name" : "",
-      "uid" : "7c5983c6db3b63eb",
+      "uid" : "266daaff93030c3",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656315477225,
+        "stop" : 1656315477226,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-103.0.5060.53" ]
+    }, {
+      "name" : "",
+      "uid" : "389e0a78027f2efc",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656315477233,
+        "stop" : 1656315477234,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-103.0.5060.53" ]
+    }, {
+      "name" : "Then I should see a flash message saying Your username is invalid!",
+      "uid" : "61d91e61b576b9a3",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656315478393,
+        "stop" : 1656315478465,
+        "duration" : 72
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-103.0.5060.53" ]
+    }, {
+      "name" : "",
+      "uid" : "6b2ff83d6e736d6b",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
@@ -88,8 +122,25 @@
       "retriesStatusChange" : false,
       "parameters" : [ "chrome-103.0.5060.53" ]
     }, {
+      "name" : "Then I should see a flash message saying You logged into a secure area!",
+      "uid" : "47d65925c864e90b",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656315477137,
+        "stop" : 1656315477225,
+        "duration" : 88
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-103.0.5060.53" ]
+    }, {
       "name" : "When I login with foobar and barfoo",
-      "uid" : "d9993ecc419254f5",
+      "uid" : "5f5d2960fc8d4bad",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
@@ -106,63 +157,12 @@
       "parameters" : [ "chrome-103.0.5060.53" ]
     }, {
       "name" : "",
-      "uid" : "cffd423c23618231",
+      "uid" : "6d7268ad9ea78944",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
         "start" : 1656315471824,
         "stop" : 1656315471825,
-        "duration" : 1
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-103.0.5060.53" ]
-    }, {
-      "name" : "Given I am on the login page",
-      "uid" : "aecc033dfb32db1d",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1656315471825,
-        "stop" : 1656315476216,
-        "duration" : 4391
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-103.0.5060.53" ]
-    }, {
-      "name" : "Then I should see a flash message saying You logged into a secure area!",
-      "uid" : "6f38df5f1b308a5",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1656315477137,
-        "stop" : 1656315477225,
-        "duration" : 88
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-103.0.5060.53" ]
-    }, {
-      "name" : "",
-      "uid" : "c4a67523efbc9cbc",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1656315477225,
-        "stop" : 1656315477226,
         "duration" : 1
       },
       "flaky" : false,
