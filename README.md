@@ -24,7 +24,7 @@ tagExpression: "@TagExample";
 Then run this command in terminal
 
 ```bash
-npm run test
+npm run wdio or npm run wdio:allure
 ```
 
 ## How to contribute?
@@ -41,6 +41,3 @@ For fixing code in master you can create new branch with name.
 hotfix/feature-name
 ```
 
-## Who do i talk to?
-
-You can reach @RaymondSambur or @IlhamAdityaMuksidin through DingTalk or email for further information. Thanks!
