@@ -1,0 +1,174 @@
+{
+  "uid" : "e259b0ddfc8af424",
+  "name" : "Then I should see a flash message saying Your username is invalid!",
+  "fullName" : "The Internet Guinea Pig Website: As a user, I can log into the secure area.Then I should see a flash message saying Your username is invalid!",
+  "historyId" : "364a02851d63f851af9dc86c2817d38c",
+  "time" : {
+    "start" : 1656315478393,
+    "stop" : 1656315478465,
+    "duration" : 72
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1656315478393,
+        "stop" : 1656315478413,
+        "duration" : 20
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "91c9ef2863be3b9",
+        "name" : "Request",
+        "source" : "91c9ef2863be3b9.json",
+        "type" : "application/json",
+        "size" : 50
+      }, {
+        "uid" : "2d034f0508c15e99",
+        "name" : "Response",
+        "source" : "2d034f0508c15e99.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1656315478417,
+        "stop" : 1656315478434,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9bec42d9442a1567",
+        "name" : "Request",
+        "source" : "9bec42d9442a1567.json",
+        "type" : "application/json",
+        "size" : 50
+      }, {
+        "uid" : "b02cd5be70fbb490",
+        "name" : "Response",
+        "source" : "b02cd5be70fbb490.json",
+        "type" : "application/json",
+        "size" : 93
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1656315478435,
+        "stop" : 1656315478448,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "271e3b64c26dfc17",
+        "name" : "Request",
+        "source" : "271e3b64c26dfc17.json",
+        "type" : "application/json",
+        "size" : 50
+      }, {
+        "uid" : "36c584d6c7c31870",
+        "name" : "Response",
+        "source" : "36c584d6c7c31870.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/element/86a562f9-716a-492d-a9f1-56ffefceb92f/text",
+      "time" : {
+        "start" : 1656315478450,
+        "stop" : 1656315478465,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5dae5bf77f1092ba",
+        "name" : "Response",
+        "source" : "5dae5bf77f1092ba.json",
+        "type" : "application/json",
+        "size" : 31
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 7,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "The Internet Guinea Pig Website: As a user, I can log into the secure area"
+  }, {
+    "name" : "testClass",
+    "value" : "The Internet Guinea Pig Website: As a user, I can log into the secure area"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then I should see a flash message saying Your username is invalid!"
+  }, {
+    "name" : "package",
+    "value" : "The Internet Guinea Pig Website: As a user, I can log into the secure area"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.53"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e259b0ddfc8af424.json",
+  "parameterValues" : [ "chrome-103.0.5060.53" ]
+}
