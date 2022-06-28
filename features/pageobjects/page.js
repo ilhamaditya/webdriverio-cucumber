@@ -1,5 +1,6 @@
 const selectEnv = require('./../../selectEnv');
 const env = new selectEnv()
+env.checkEnv(`${process.env.ACTIVE_ENV}`)
 /**
 * main page object containing all methods, selectors and functionality
 * that is shared across all page objects
