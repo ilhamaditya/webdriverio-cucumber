@@ -1,4 +1,4 @@
-const selectEnv = require('./../../selectEnv');
+const selectEnv = require('../../../selectEnv');
 const env = new selectEnv()
 env.checkEnv(`${process.env.ACTIVE_ENV}`)
 /**
