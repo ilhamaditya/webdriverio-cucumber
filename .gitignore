@@ -50,7 +50,7 @@ Thumbs.db
 *.wmv
 
 # Environment files
-*.env
+# *.env
 
 # Report
 allure-report
