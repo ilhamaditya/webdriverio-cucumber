@@ -4,7 +4,7 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "test": "./node_modules/.bin/wdio ./config/wdio.conf.js",
+        "test": "./node_modules/.bin/wdio ./wdio.conf.js ",
         "wdio": "wdio run wdio.conf.js",
         "wdio:allure": "wdio run wdio.conf.js && allure generate allure-results/ --clean && allure open"
     },
